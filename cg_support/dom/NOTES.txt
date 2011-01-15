@@ -1,0 +1,12 @@
+@thehodge wants to be able to pass a keyword to CG and get back a list of thumbnails.
+
+
+Here's a solr query that lists the fields, and returns XML
+
+http://culturegrid.org.uk/index/select/?q=beer&version=2.2&start=0&rows=10&indent=on&fl=pndsterms.thumbnail,dc.description,dc.description,cached_thumbnail
+
+Or to return json
+
+http://culturegrid.org.uk/index/select/?q=beer&version=2.2&start=0&rows=10&indent=on&fl=pndsterms.thumbnail,dc.description,dc.description,cached_thumbnail&wt=json
+
+
