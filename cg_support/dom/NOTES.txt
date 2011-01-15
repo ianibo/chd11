@@ -10,3 +10,6 @@ Or to return json
 http://culturegrid.org.uk/index/select/?q=beer&version=2.2&start=0&rows=10&indent=on&fl=pndsterms.thumbnail,dc.description,dc.description,cached_thumbnail&wt=json
 
 
+Only return items with thumbs
+
+view-source:http://culturegrid.org.uk/index/select/?q=beer%20and%20have_thumbnail:true&version=2.2&start=0&rows=10&indent=on&wt=json&fl=pndsterms.thumbnail,dc.description,dc.description,cached_thumbnail
